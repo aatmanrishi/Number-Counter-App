@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+.wordCounter{
+    font-size: 3rem;
+    padding: 1rem;
+    font-weight: bold;
+    color: rgb(175, 123, 41);
+}
+.container{
+    width: auto;
+    height: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+.IncrementButton , .DecrementButton{
+    font-size: 3rem;
+    padding: 1rem;
+    font-weight: bold;
+    border: none;
+    background-color: brown;
+    color: burlywood;
+    cursor: pointer;
+    border-radius: 1rem;
+    transition: all 0.5s ease-in-out;
+}
+.IncrementButton:hover , .DecrementButton:hover{
+    color: burlywood;
+    background-color: brown;
+}
+.NumberContainer{
+    font-size: 3rem;
+    padding:1rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    text-align: center;
+    color: rgb(175, 123, 41);
+}
